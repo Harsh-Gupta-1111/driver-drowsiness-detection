@@ -1,0 +1,31 @@
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+MODEL_PATH = os.path.join(BASE_DIR, "models", "face_landmarker.task")
+ALARM_PATH = os.path.join(BASE_DIR, "assets", "newAlarm.wav")
+
+LOG_DIR = os.path.join(BASE_DIR, "log")
+RECORDING_DIR = os.path.join(BASE_DIR, "recordings")
+
+CAMERA_INDEX = 0
+FRAME_WIDTH = 640
+FRAME_HEIGHT = 480
+
+EAR_THRESHOLD = 0.20
+CLOSED_FRAMES_THRESHOLD = 30
+
+PERCLOS_WINDOW_SIZE = 150
+PERCLOS_ON_THRESHOLD = 0.45
+PERCLOS_OFF_THRESHOLD = 0.30
+
+PITCH_DOWN_THRESHOLD = -15.0
+PITCH_RESET_THRESHOLD = -7.0
+ROLL_LIMIT = 30.0
+YAW_LIMIT = 35.0
+
+NOSE_DROP_THRESHOLD = 36.0
+NOSE_RESET_THRESHOLD = 16.0
+NOSE_SMOOTHING = 0.85
+
+HEAD_DOWN_FRAME_LIMIT = 6

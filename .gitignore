@@ -1,0 +1,23 @@
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Runtime logs and webcam recordings
+log/
+recordings/
+*.avi
+
+# Secrets and environment files
+.env
+.env.*
+
+# Editor settings
+.vscode/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
